@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+ int main (){
+int y, b;
+float j;
+	scanf("%d %d", &y,&b);
+	j=sqrt((float)y)+sqrt((float)b);
+		printf("%.2f", j);
+	return 0;
+ }
