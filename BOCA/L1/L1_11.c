@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<stdlib.h>
+ int main(){
+ 	int num;
+ 	char* meses[12]={"Jan.","Fev.","Mar.","Abr.","Mai.","Jun.","Jul.","Ago.","Set.","Out.","Nov.","Dez."};
+ 		scanf("%d", &num);
+ 			if(num>12||num<=0){
+ 				printf("Invalido.");}
+			 if(num>=1&&num<=12){
+			 	num--;
+		 		printf("%s", meses[num]);}
+		 return 0;}
